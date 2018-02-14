@@ -1,25 +1,21 @@
 fileFormatVersion: 2
-guid: 2a601f2cfe8a36f41a0c4fa6cdac893c
-timeCreated: 1517398675
+guid: 155cc0a5847808844939df8a6969fd00
+timeCreated: 1518601954
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: pCube3
     400000: //RootNode
+    400002: pCube3
     2100000: lambert1
-    2100002: Default_Material
     2300000: //RootNode
+    2300002: pCube3
     3300000: //RootNode
-    4300000: polySurface11
-    4300002: polySurface18
-    4300004: pCylinder21
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: a617923a597b022468a527c6aea9c0c3, type: 2}
+    3300002: pCube3
+    4300000: pCube3
+  externalObjects: {}
   materials:
     importMaterials: 0
     materialName: 0
@@ -62,7 +58,7 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
+    preserveHierarchy: 1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
