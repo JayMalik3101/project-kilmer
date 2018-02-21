@@ -23,7 +23,6 @@ public class Movement : MonoBehaviour
         transform.Translate(userDirection * Speed * Time.deltaTime);
         
         var x = Input.GetAxis("Horizontal") * Time.deltaTime * RotationSpeed;
-        //var z = Input.GetAxis("Vertical") * Time.deltaTime * Speed;
 
         transform.Rotate(0, x, 0);
         transform.Translate(0, 0, z);
