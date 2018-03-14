@@ -22,8 +22,8 @@ public class Movement : MonoBehaviour
     public void Update()
     {
         transform.Translate(userDirection * Speed * Time.deltaTime);
-        
-        var x = Input.GetAxis(Player) * Time.deltaTime * RotationSpeed;
+
+        float x = Input.GetAxis(Player) * Time.deltaTime * RotationSpeed;
 
         transform.Rotate(0, x, 0);
         transform.Translate(0, 0, z);
