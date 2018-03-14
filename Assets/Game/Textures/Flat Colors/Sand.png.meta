@@ -3,8 +3,13 @@ fileFormatVersion: 2
 guid: 24a34063db5eaf44681f4db509e7f24c
 timeCreated: 1520408450
 =======
+<<<<<<< Updated upstream
 guid: 5e86f7bf8074cb04fb6abf4861adb039
 timeCreated: 1520408611
+=======
+guid: 39bd3689b217f66478fb0fd064fd2179
+timeCreated: 1521013479
+>>>>>>> Stashed changes
 >>>>>>> Stashed changes
 licenseType: Free
 TextureImporter:
