@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    public string Player;
 
     [SerializeField] int RotationSpeed;
     [SerializeField] int Speed;
@@ -22,7 +23,7 @@ public class Movement : MonoBehaviour
     {
         transform.Translate(userDirection * Speed * Time.deltaTime);
         
-        var x = Input.GetAxis("Horizontal") * Time.deltaTime * RotationSpeed;
+        var x = Input.GetAxis(Player) * Time.deltaTime * RotationSpeed;
 
         transform.Rotate(0, x, 0);
         transform.Translate(0, 0, z);
