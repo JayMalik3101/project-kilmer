@@ -28,5 +28,4 @@ public class Movement : MonoBehaviour
         transform.Rotate(0, x, 0);
         transform.Translate(0, 0, z);
     }
-
 }
