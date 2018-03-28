@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Assets/Game/Scripts/ZoranScripts/CameraMultipleTargets.cs.meta
 guid: c472230d3ef1fa74294b851dab7abc48
 timeCreated: 1521016558
+=======
+guid: f46e80945eaf4c54dbc66ad7128f3c7d
+timeCreated: 1518602814
+>>>>>>> Stashed changes:Assets/Game/Scripts/ZoranScripts/SmoothFollow.cs.meta
 licenseType: Free
 MonoImporter:
   externalObjects: {}

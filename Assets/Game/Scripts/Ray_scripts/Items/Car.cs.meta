@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+<<<<<<< Updated upstream:Assets/Game/Scripts/player_cars/SmoothFollow.cs.meta
+guid: 2a797ca5f210d8d4099d5920ddc56790
+timeCreated: 1518602814
+=======
+guid: 7cfa9bc1fbf1d044cbdf4e4a9063f151
+timeCreated: 1521022715
+>>>>>>> Stashed changes:Assets/Game/Scripts/Ray_scripts/Items/Car.cs.meta
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
