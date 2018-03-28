@@ -11,8 +11,8 @@ public class CameraMultipleTargets : MonoBehaviour
     public float smoothTime = .5f;
 
     public float minZoom = 40f;
-    public float maxZoom = 10f;
-    public float zoomLimiter = 50f;
+    public float maxZoom = 60f;
+    public float zoomLimiter = 20f;
 
     private Vector3 velocity;
     private Camera cam;
@@ -39,6 +39,8 @@ public class CameraMultipleTargets : MonoBehaviour
 
     void Move()
     {
+        transform.LookAt(GetCenterPoint());
+
         Vector3 centerPoint = GetCenterPoint();
 
         Vector3 newPosition = centerPoint + offset;
