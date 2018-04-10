@@ -7,14 +7,19 @@ ModelImporter:
   fileIDToRecycleName:
     100000: //RootNode
     100002: pCube3
+    100004: pCube5
     400000: //RootNode
     400002: pCube3
+    400004: pCube5
     2100000: lambert1
     2300000: //RootNode
     2300002: pCube3
+    2300004: pCube5
     3300000: //RootNode
     3300002: pCube3
+    3300004: pCube5
     4300000: pCube3
+    4300002: pCube5
   externalObjects: {}
   materials:
     importMaterials: 0
