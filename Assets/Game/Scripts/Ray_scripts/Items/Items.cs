@@ -26,7 +26,7 @@ public class Items : Movement
     public void OnTriggerEnter(Collider other)
     {
         Debug.Log("Item picked up");
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("player1"))
         {
             Debug.Log("item chosen from list ");
             this.gameObject.SetActive(false);

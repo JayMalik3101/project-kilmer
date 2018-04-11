@@ -11,9 +11,6 @@ public class Movement : MonoBehaviour
     private float m_timer = 10;
     public string Player;
     public string m_item_activate_key;
-    public GameObject Rocket;
-    
-    public Transform rocketlaunch_origin;
 
     [SerializeField] int RotationSpeed;
     [SerializeField] float Speed;
@@ -59,10 +56,7 @@ public class Movement : MonoBehaviour
                     
                 case BaseEffects.PickupType.missile:
                     {
-                        ;
                         Debug.Log("missile gepakt");
-                       
-                        
                         missleshot = true;
                         
                     }
@@ -96,26 +90,13 @@ public class Movement : MonoBehaviour
                 Speed = 6;
 
             }
-            
+            if (missleshot == true)
+            {
 
-        }
-        if (missleshot == true)
-        {
-
-            GameObject Rocketprefab = Instantiate(Rocket, rocketlaunch_origin.position, rocketlaunch_origin.localRotation);
-            Rigidbody rb = Rocketprefab.GetComponent<Rigidbody>();
-            rb.AddForce(rocketlaunch_origin.forward * 0, ForceMode.VelocityChange);
-            missleshot = false; 
-            // 
-
-
-
-
-
+            }
 
 
         }
-
 
     }
 }
