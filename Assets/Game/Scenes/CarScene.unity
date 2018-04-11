@@ -1194,7 +1194,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 2a601f2cfe8a36f41a0c4fa6cdac893c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: aca61f6e4b90f074f9947aeaea8f8696, type: 2}
+      objectReference: {fileID: 2100000, guid: 73e2d999e9578714690ae1d0f1bf64de, type: 2}
     - target: {fileID: 100000, guid: 2a601f2cfe8a36f41a0c4fa6cdac893c, type: 3}
       propertyPath: m_Name
       value: GoKart (2)
