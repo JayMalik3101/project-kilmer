@@ -577,6 +577,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 23418803596653306, guid: e7617db7ff4dedf4b8ec1ae1cdbd2e0a,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73e2d999e9578714690ae1d0f1bf64de, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7617db7ff4dedf4b8ec1ae1cdbd2e0a, type: 2}
   m_IsPrefabParent: 0
@@ -925,6 +930,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f72c2ce1e32dd74a93a33ace7b945da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverPanel: {fileID: 0}
+  gameOverText: {fileID: 0}
 --- !u!65 &701404419
 BoxCollider:
   m_ObjectHideFlags: 0
