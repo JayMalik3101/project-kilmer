@@ -9,24 +9,10 @@ public class Items : Movement
 
     private int counter = 2;
 
-
-
-    // Use this for initialization
-    void Start()
-    {
-      
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     public void OnTriggerEnter(Collider other)
     {
         Debug.Log("Item picked up");
-        if (other.CompareTag("player1"))
+        if (other.CompareTag("Player"))
         {
             Debug.Log("item chosen from list ");
             this.gameObject.SetActive(false);
