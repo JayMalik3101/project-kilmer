@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/Menu.unity
     guid: 759469526c0f9f4479d52853da3ac56d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Game/Scenes/Zoran.unity
     guid: ea4cd673d232e9141a866e854ee0ceaf
+  - enabled: 1
+    path: Assets/Game/Scenes/rids shit.unity
+    guid: fd36ef8753c8197498e17e38a6a58dd3

@@ -29,6 +29,10 @@ public class CameraMultipleTargets : MonoBehaviour
 
         Move();
         Zoom();
+        if (targets.Count == 1)
+        {
+            
+        }
     }
 
     void Zoom()
